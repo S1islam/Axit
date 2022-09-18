@@ -1,0 +1,579 @@
+/* =======Google Font======= */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url(../fonts/MYRIADPRO-BOLD.OTF,MYRIADPRO-BOLDCOND.OTF,MYRIADPRO-BOLDIT.OTF,MYRIADPRO-COND.OTF,MYRIADPRO-REGULAR.OTF,MYRIADPRO-SEMIBOLD.OTF,MYRIADPRO-BOLDCONDIT.OTF,MYRIADPRO-CONDIT.OTF,MyriadPro-Light.otf,CHILLER.TTF);
+
+/* =======Theme CSS====== */
+body{
+  font-family: 'MYRIADPRO', sans-serif;
+  color: #86878b;
+}
+h1{
+  font-size: 36px;
+}
+h2{
+  font-family: 'Raleway', sans-serif;
+  color: #333;
+  font-size: 32px;
+}
+h3{
+  font-size: 20px;
+  color: #333;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  padding: 0;
+}
+ul li{
+  list-style: none;
+}
+.download-btn{
+  padding: 15px 40px;
+  display: inline-block;
+  background: transparent;
+  border: 2px solid #fff;
+  font-size: 18px;
+  color: #fff;
+  transition: all 0.4s ease-in-out;
+}
+.download-btn:hover{
+  background: #ff9b51;
+  color: #fff;
+}
+.header-separetor{
+  width: 80px;
+  height: 3px;
+  margin: 25px 0;
+  background: #86878b;
+}
+/* ======Header Section======== */
+header{
+  background: #000;
+  border-bottom: 2px solid #fff;
+}
+.navbar-brand{
+  padding-top: 15px;
+}
+.nav-item{
+  margin-right: 30px;
+}
+.nav-link{
+  color: #b0b0b0;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+  color: #b0b0b0
+}
+.nav-link:focus, .nav-link:hover {
+  color: #fff;
+}
+
+/* ======Banner Section====== */
+.banner-section{
+  background: url(../images/banner.png) no-repeat center top;
+  background-size: cover;
+  padding: 200px 0;
+}
+.banner-left img{
+  width: 170px;
+  margin-left: -25px;     
+}
+.banner-left h1{
+  color: #fff;
+}
+.banner-left p{
+  margin: 30px 0 35px;
+  font-size: 18px;
+}
+.banner-right{
+  background: white;
+  border-radius: 10px;
+  margin-left: 70px;
+  width: 80%;
+}
+.banner-right h3{
+  background: #f5f5f5;
+  margin: 0;
+  padding: 25px;
+  font-size: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+.banner-right h3 span{
+  color: #ff9b51;
+}
+.banner-right .form-group{
+  padding: 20px 35px;
+}
+.banner-right .form-control{
+  padding: 5px 15px;
+  border: none;
+  margin-bottom: 40px;
+  border-radius: 0;
+  border-bottom: 1px solid #c1c1c1;
+  color: #c1c1c1;
+}
+.banner-right .form-group input[type="password"]{
+  margin-top: 60px;
+}
+.banner-right .submit-btn{
+  width: 100%;
+  border: none;
+  padding: 20px;
+  background: #ff9b51;
+  color: #fff;
+  border-radius: 10px;
+}
+
+/* ========Social Media Section======== */
+.socialmedia-section{
+  padding: 20px 0 0;
+  border-bottom: 2px solid #b7b7b7;
+}
+.socialmedia-section h3{
+  margin-bottom: 15px;
+}
+.socialmedia-section p{
+  margin-bottom: 20px;
+  padding-right: 20px;
+}
+.social-icon{
+  margin-top: 15px;
+}
+.social-icon ul li{
+  display: inline-block;
+}
+.social-icon .fa-brands,
+.social-icon .fa-solid{
+  width: 58px;
+  height: 58px;
+  line-height: 58px;
+  font-size: 40px;
+  text-align: center;
+  margin-right: 28px;
+  transition: all 0.4s ease-in-out;
+}
+.social-icon .fa-brands:hover,
+.social-icon .fa-solid:hover{
+  color: #ff9b51;
+}
+
+.transition-section{
+  background: #f5f5f5;
+  padding: 80px 0;
+}
+
+.tab-area ul{
+  border-radius: 10px;
+}
+.tab-area ul li{
+  padding: 50px 0;
+  background: #333;
+  margin-right: 50px;
+  border-bottom: 1px solid #fff;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 0.4s ease-in-out; 
+}
+.tab-area ul li .active{
+  background: #ff9b51;
+}
+.tab-area ul li:hover{
+  background: #ff9b51;
+}
+.transition-section h3{
+  margin-bottom: 40px;
+}
+.transition-section p{
+  margin-bottom: 30px;
+}
+.transition-section .download-btn{
+  margin-top: 40px;
+  background: #ff9b51;
+  border-radius: 10px;
+}
+.transition-section .download-btn:hover{
+  background: transparent;
+  color: #ff9b51;
+  border: 2px solid #ff9b51;
+}
+.transition-section img{
+  width: 100%;
+  margin-top: 40px;
+}
+/* =======Features Section======= */
+.features-section{
+  padding: 80px 0;
+}
+.features-section img{
+  width: 100%;
+  margin-top: 50px;
+}
+.features-section h3{
+  font-size: 24px;
+}
+.features-section .header-separetor{
+  background: #ff9b51;
+}
+.feature-icon{
+  float: left;
+}
+.feature-icon .fa-solid {
+  width: 55px;
+  height: 55px;
+  margin-top: 35px;
+  margin-right: 20px;
+  border: 2px solid #ff9b51;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 22px;
+  line-height: 48px;
+  color: #ff9b51;
+  transition: all 0.4s ease-in-out;
+}
+.feature-icon .fa-solid:hover{
+  background: #ff9b51;
+  color: #fff;
+}
+.feature-titel h4{
+  font-size: 20px;
+  padding-top: 20px;
+  color: #333;
+}
+.feature-titel p{
+  padding-left: 76px;
+}
+/* ======Pictures Section======= */
+.pictures-section{
+  padding: 80px 0;
+  background: #f5f5f5;
+}
+.pictures-section h3{
+  font-size: 24px;
+}
+.pictures-section .header-separetor{
+  background: #ff9b51;
+}
+/* ======process-section====== */
+.process-section{
+  padding: 80px 0;
+  text-align: center;
+}
+.process-section .header-separetor{
+  background: #ff9b51;
+  margin: 30px auto;
+}
+.process-section p{
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.process-section .fa-solid {
+  width: 55px;
+  height: 55px;
+  margin-top: 35px;
+  margin-right: 20px;
+  border: 2px solid #ff9b51;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 20px;
+  line-height: 48px;
+  color: #ff9b51;
+  transition: all 0.4s ease-in-out;
+}
+.process-section .fa-solid:hover{
+  background: #ff9b51;
+  color: #fff;
+}
+.process-section h3{
+  margin: 20px 0 30px;
+}
+/* =======pricing-section======= */
+.pricing-section{
+  background: #f5f5f5;
+  padding: 80px 0;
+  text-align: center;
+}
+.price-header{
+  padding-bottom: 120px;
+}
+.price-header h2{
+ 
+}
+.price-header .header-separetor{
+  background: #ff9b51;
+  margin: 20px auto;
+}
+.price-header p{
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.section-head{
+  background: #333;
+  border-bottom: 6px solid #ff9b51;
+}
+.section-head ul .titel{
+  font-size: 22px;
+}
+.section-head ul li{
+  padding: 20px 0;
+  border-top: 1px solid #fff;
+  font-size: 16px;
+  color: #fff;
+}
+.section-head ul li .doller{
+  font-size: 36px;
+}
+.section-head ul li .number{
+  font-size: 78px;
+  font-weight: 800;
+}
+.section-list{
+  background: #fff;
+}
+.section-list ul li{
+  padding: 15px 0;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #f5f5f5;
+}
+.professional{
+  margin-top: -45px;
+}
+.professional .section-head{
+  border: none;
+}
+.professional .section-head .popular{
+  padding: 20px 0;
+  background: #ff9b51;
+}
+.section-head ul li .number-one{
+  font-size: 72px;
+  font-weight: 800;
+}
+.professional .section-list{
+  margin-top: -15px;
+}
+/* ========Coustomer Review Section======== */
+.review-section{
+  padding: 80px 0;
+  text-align: center;
+}
+.review-section h2{
+
+}
+.review-section .header-separetor{
+  background: #ff9b51;
+  margin: 20px auto;
+}
+.review-section p{
+  margin-bottom: 50px;
+}
+.all-review{
+  padding-right: 40px;
+}  
+.massage{
+  background: #f5f5f5;
+  position: relative;
+  border-radius: 5px;
+}
+.massage::before{
+  content: "";
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background: #f5f5f5;
+  transform: rotate(45deg);
+  bottom: -7px;
+  left: 25px;
+  z-index: -1;
+}
+.massage p{
+  padding: 20px 25px;
+  text-align: left;
+  margin-bottom: 10px;
+    
+}
+.customer img{
+  float: left;
+}
+.customer-titel{
+  display: inline-block;
+  margin-left: -165px;
+  padding: 15px 0 0;
+}
+.customer-titel ul li{
+  padding: 5px 0 0;
+}
+.cus-name{
+  color: #333;
+}
+/* Design Section */
+.design-section{
+  background: url(../images/custom-bg.png) no-repeat center top;
+  background-size: cover;
+  padding: 40px 0;
+  text-align: center;
+}
+.design-section h2{
+  color: #fff;
+}
+.design-section .header-separetor{
+  background: #fff;
+  margin: 30px auto 0;
+}
+.design-section p{
+  margin: 30px 0; 
+}
+/* contract-section */
+.contract-section{
+  padding: 80px 0;
+  text-align: center;
+}
+.contract-section .header-separetor{
+  background: #ff9b51;
+  margin: 30px auto;
+}
+.form .form-group{
+  width: 50%;
+  float: left;
+}
+.form .form-control{
+  padding: 30px 20px 10px;
+  display: inline-block;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #d6d6d6;
+}
+.form .info{
+  width: 35%;
+  height: 195px;
+  padding-top: 30px;
+  border: none;
+  border-bottom: 1px solid #d6d6d6;
+  overflow: hidden;
+  display: inline-block;
+  color: #868686;
+}
+.form .download-btn{
+  background: #ff9b51;
+  margin-top: 40px;
+  border-radius: 10px;
+  transition: all 0.4s ease-in-out;
+}
+.form .download-btn:hover{
+  background: transparent;
+  color: #ff9b51;
+  border: 2px solid #ff9b51;
+}
+/* =======Footer Section======= */
+footer{
+  padding: 20px 0 0;
+  background: #000;
+  text-align: center;
+}
+footer .social-icon ul li{
+  margin: 0;
+}
+footer .social-icon .fa-brands,
+footer .social-icon .fa-solid{
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 26px;
+  margin-right: 25px;
+  color: #fff;
+}
+
+
+/* For Notebook Device */
+ @media (min-width: 768px) and (max-width: 998px){
+  
+
+}
+
+/* For Tablet Device */
+ @media (min-width: 577px) and (max-width: 768px){
+
+}
+
+
+ /* For Mobile Device */
+  @media (min-width: 320px) and (max-width: 576px){
+    .navbar-brand img{padding-top: 20px;}
+    .navbar-toggler{background: #fff;}
+    .navbar-nav{text-align: center;}
+    .nav-item{width: 35%; margin: auto; border-bottom: 1px solid transparent;}
+    .nav-item:hover{border-bottom: 1px solid #fff; color: #fff;}
+
+    .banner-section{padding: 25px 0;}
+    .banner-left h1{font-size: 22px; line-height: 35px; text-align: center;}
+    .banner-section .header-separetor{margin: 25px auto;}
+    .banner-left p {margin: 30px 0; text-align: center;}
+    .banner-section .download-btn{margin: auto; display: block;width: 50%;}
+    .banner-right{margin: 35px 0 10px; width: 100%;}
+    .socialmedia-section {padding: 20px 0 10px; text-align: center;}
+    .socialmedia-section .social-icon .fa-brands,
+    .socialmedia-section .social-icon .fa-solid{width: 35px; height: 35px; line-height: 35px; font-size: 35px; margin-right: 8px;}
+
+    .transition-section {padding: 25px 0; text-align: center;}
+    .tab-area ul{width: 90%; margin: auto;}
+    .tab-area ul li {padding: 12px 0; margin: 0;}
+    .transition-section h3 {margin-top: 25px; margin-bottom: 25px;}
+    .transition-section .download-btn{display: block; margin: auto;width: 60%;}
+    .transition-section img{margin: auto; display: block;}
+
+    .features-section{padding: 0; text-align: center;}
+    .features-section img{margin: 25px 0;}
+    .features-section .header-separetor {margin: 20px auto;}
+    .col-12{margin-bottom: 20px;}
+    .features-list{margin-top: -25px;}
+    .feature-icon{float: none;}
+    .feature-icon .fa-solid {margin-right: 0;}
+    .feature-titel p {padding-left: 0;}
+
+    .pictures-section{padding: 25px 0; text-align: center;}
+    .pictures-section .header-separetor {margin: 20px auto;}
+    .pictures-section img{width: 100%;}
+
+    .process-section {padding: 25px 0;}
+    .process-section h2{font-size: 26px;}
+    .process-section .header-separetor {margin: 20px auto;}
+    .process-section p{margin-bottom: 0;}
+    .process-section .fa-solid {margin: 20px auto 0;}
+    .process-section h3 {margin: 15px 0 15px;}
+
+    .pricing-section{padding: 25px 0;}
+    .price-header{padding-bottom: 10px;}
+    .price-header h2{font-size: 26px;}
+    .pricing-section .price-area{margin: 0;}
+    .section-head ul li {padding: 15px 0}
+    .professional{margin-top: 0;}
+
+    .review-section{padding: 25px 0 0;}
+    .review-section h2{font-size: 26px;}
+    .review-section p {margin-bottom: 30px;}
+    .all-review{padding-left: 20px; padding-right: 0;}
+    .customer{margin-top: -22px; margin-bottom: 20px;}
+
+    .design-section{padding: 25px 0;}
+    .design-section h2{font-size: 26px;}
+    .design-section .header-separetor {margin: 20px auto;}
+
+    .contract-section{padding: 25px 0;}
+    .contract-section h2{font-size: 26px;}
+    .contract-section .header-separetor {margin: 20px auto;}
+    .form .form-group {width: 100%; margin-bottom: 20px;}
+    .form-control:focus {border: none; border-bottom: 1px solid #ccc; box-shadow: 0 0 0 0;}
+    .form .info {padding: 30px 20px 10px; width: 100%;}
+    .form .info:focus {border: none; border-bottom: 1px solid #ccc; box-shadow: 0 0 0 0;}
+    .form .download-btn {margin-top: 20px;}
+
+    footer .social-icon .fa-brands,
+    footer .social-icon .fa-solid{
+      margin-right: 10px;
+    }
+  
+  }
+
